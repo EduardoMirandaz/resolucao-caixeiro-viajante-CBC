@@ -243,11 +243,7 @@ Ele começa importando a biblioteca matplotlib.pyplot como pp. Em seguida, cria 
 
 Feito isso, o código itera sobre a lista de nós (cidades) e desenha um scatter plot (um ponto) para cada nó. A cor dos pontos é preta, indicada pela letra 'k'.
 
-Em seguida, o código itera sobre as variáveis do modelo de programação linear m e desenha uma linha vermelha (indicada pela letra 'r') entre os nós correspondentes para cada variável com valor maior que 
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: equation: use MathJax/LaTeX if your publishing platform supports it. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-.
+Em seguida, o código itera sobre as variáveis do modelo de programação linear m e desenha uma linha vermelha (indicada pela letra 'r') entre os nós correspondentes para cada variável com valor maior que 1e-5.
 
 Por fim, o código chama a função pp.show() para exibir o gráfico gerado.
 
@@ -415,7 +411,7 @@ O objetivo é minimizar a distância total do transporte, levando em consideraç
    </td>
    <td>-76.341
    </td>
-  </tr>
+  </tr> 
   <tr>
    <td><strong>Teresina</strong>
    </td>
