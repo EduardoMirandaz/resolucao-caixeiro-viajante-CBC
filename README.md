@@ -453,96 +453,28 @@ O objetivo é minimizar a distância total do transporte, levando em consideraç
 * Restrição de passagem por todas as cidades:
 
 
+![alt_text](expressoes_aritmeticas/tex1.png "image_tooltip")
 
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image15.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image15.gif "image_tooltip")
-
-
-Onde "
-
-<p id="gdcalert17" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image16.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert18">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image16.gif "image_tooltip")
-" é a variável que indica se o empresário passa pela cidade "
-
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image17.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image17.gif "image_tooltip")
-" ao visitar a cidade "
-
-<p id="gdcalert19" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image18.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert20">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image18.gif "image_tooltip")
-". A soma dessas variáveis para todos os índices "
-
-<p id="gdcalert20" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image19.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert21">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image19.gif "image_tooltip")
-" deve ser igual a 1, o que garante que todas as cidades sejam visitadas pelo menos uma vez.
+Onde "<img src="expressoes_aritmeticas/tex3.png" alt="drawing" width="50px"/>" é a variável que indica se o empresário passa pela cidade "i" ao visitar a cidade "j". A soma dessas variáveis para todos os índices "i" deve ser igual a 1, o que garante que todas as cidades sejam visitadas pelo menos uma vez.
 
 
 
 * Restrição de passagem por cada cidade uma única vez:
 
+![alt_text](expressoes_aritmeticas/tex1.png "image_tooltip")
 
 
-<p id="gdcalert21" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image20.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert22">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image20.gif "image_tooltip")
-
-
-Onde "
-
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image21.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image21.gif "image_tooltip")
-" é a variável que indica se o empresário passa pela cidade "
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image22.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image22.gif "image_tooltip")
-" ao visitar a cidade "
-
-<p id="gdcalert24" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image23.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert25">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image23.gif "image_tooltip")
-". A soma dessas variáveis para todos os índices "
-
-<p id="gdcalert25" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image24.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert26">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image24.gif "image_tooltip")
-" deve ser igual a 1, o que garante que cada cidade seja visitada apenas uma vez.
+Onde "<img src="expressoes_aritmeticas/tex2.png" alt="drawing" width="50px"/>" é a variável que indica se o empresário passa pela cidade "i" ao visitar a cidade "j". A soma dessas variáveis para todos os índices "j" deve ser igual a 1, o que garante que cada cidade seja visitada apenas uma vez.
 
 
 
 * Restrição de retorno à cidade de partida:
 
 
-
-<p id="gdcalert26" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image25.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert27">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image25.gif "image_tooltip")
+<img src="expressoes_aritmeticas/tex2.png" alt="drawing" width="150px"/>
 
 
-Onde "
-
-<p id="gdcalert27" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image26.gif). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert28">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image26.gif "image_tooltip")
-" é a variável que indica se o empresário passa pela cidade de partida ao visitar a cidade de partida. Essa restrição garante que o empresário volte à cidade de partida após visitar todas as cidades.
+Onde "<img src="expressoes_aritmeticas/tex2.png" alt="drawing" width="50px"/>" é a variável que indica se o empresário passa pela cidade de partida ao visitar a cidade de partida. Essa restrição garante que o empresário volte à cidade de partida após visitar todas as cidades.
 
 
 ## **4 - Conclusão**
